@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "kbfBRns+yxo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\R.Mahmoudzade\\RiderProjects\\Yadino-Backend\\Yadino-Backend\\Yadino-Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\R.Mahmoudzade\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\R.Mahmoudzade\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\R.Mahmoudzade\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\R.Mahmoudzade\\RiderProjects\\Yadino-Backend\\Yadino-Backend\\Yadino-Backend.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\R.Mahmoudzade\\RiderProjects\\Yadino-Backend\\Yadino-Backend\\Yadino-Backend.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
