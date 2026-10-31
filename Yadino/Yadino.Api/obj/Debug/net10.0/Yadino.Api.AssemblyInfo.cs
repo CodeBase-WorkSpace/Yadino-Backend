@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yadino.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf26d83acbfb19bc9c125b53838567ae4968924a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+301fb42613ff5080006c1e73564ad809093e6d32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yadino.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yadino.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
