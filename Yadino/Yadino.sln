@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yadino.Api", "Yadino.Api\Yadino.Api.csproj", "{44811CEA-9A5A-43A9-925B-FCA86345E586}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yadino.Application", "Yadino.Application\Yadino.Application.csproj", "{52C6A31F-5B1C-4E2F-9D15-7115B76D20AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{44811CEA-9A5A-43A9-925B-FCA86345E586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44811CEA-9A5A-43A9-925B-FCA86345E586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44811CEA-9A5A-43A9-925B-FCA86345E586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C6A31F-5B1C-4E2F-9D15-7115B76D20AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C6A31F-5B1C-4E2F-9D15-7115B76D20AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C6A31F-5B1C-4E2F-9D15-7115B76D20AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C6A31F-5B1C-4E2F-9D15-7115B76D20AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
