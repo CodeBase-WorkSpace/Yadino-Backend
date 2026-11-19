@@ -18,7 +18,6 @@
 
     <ItemGroup>
       <Folder Include="Database\" />
-      <Folder Include="Domain\" />
       <Folder Include="Features\Notes\" />
       <Folder Include="Features\Routines\" />
     </ItemGroup>

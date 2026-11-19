@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Yadino.Api.Database.note;
 
 namespace Yadino.Api.Database;
 

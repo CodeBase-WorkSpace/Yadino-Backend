@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Yadino.Api.Database;
 
-namespace Yadino.Api.Database.note;
+namespace Yadino.Infrastructure.Persistence.Configurations;
 
-public class NoteConfiguration : IEntityTypeConfiguration<NoteEntity>
+public class NoteConfiguration : IEntityTypeConfiguration<Note>
 {
-    public void Configure(EntityTypeBuilder<NoteEntity> builder)
+    public void Configure(EntityTypeBuilder<Note> builder)
     {
         builder.ToTable(TableName.Note, schema: SchemaNames.Workspace);
 
