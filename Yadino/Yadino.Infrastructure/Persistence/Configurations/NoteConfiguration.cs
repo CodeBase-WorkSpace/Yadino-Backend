@@ -1,4 +1,7 @@
-﻿using Yadino.Api.Database;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Yadino.Domain.Notes;
+using Yadino.Infrastructure.Persistence.Constants;
 
 namespace Yadino.Infrastructure.Persistence.Configurations;
 
@@ -16,5 +19,11 @@ public class NoteConfiguration : IEntityTypeConfiguration<Note>
         builder.Property(b => b.Title)
             .IsRequired()
             .HasMaxLength(200);
+        
+        builder.Property(n => n.CreatedAtUtc)
+            .IsRequired();
+
+        builder.Property(n => n.UpdatedAtUtc)
+            .IsRequired();
     }
 }
