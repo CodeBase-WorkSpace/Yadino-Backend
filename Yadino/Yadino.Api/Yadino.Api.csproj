@@ -22,4 +22,9 @@
       <Folder Include="Features\Routines\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Yadino.Application\Yadino.Application.csproj" />
+      <ProjectReference Include="..\Yadino.Infrastructure\Yadino.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
