@@ -1,6 +1,6 @@
-﻿namespace Yadino.Api.Database;
+﻿namespace Yadino.Infrastructure.Persistence.Constants;
 
-public class SchemaNames
+public static class SchemaNames
 {
     public const string Account = "Account";
     public const string User = "User";
