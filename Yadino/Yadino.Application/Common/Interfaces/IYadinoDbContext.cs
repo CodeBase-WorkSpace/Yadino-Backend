@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Yadino.Domain.Notes;
+using Yadino.Domain.Entities.Notes;
 
 namespace Yadino.Application.Common.Interfaces;
 

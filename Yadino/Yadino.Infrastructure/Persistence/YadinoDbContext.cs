@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Yadino.Application.Common.Interfaces;
-using Yadino.Domain.Notes;
+using Yadino.Domain.Entities.Notes;
 
 namespace Yadino.Infrastructure.Persistence;
 
