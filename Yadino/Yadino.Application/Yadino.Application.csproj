@@ -16,8 +16,4 @@
       <ProjectReference Include="..\Yadino.Domain\Yadino.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Common\Abstractions\" />
-    </ItemGroup>
-
 </Project>
