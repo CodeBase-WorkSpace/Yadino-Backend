@@ -7,12 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.15" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Yadino.Domain\Yadino.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\Abstractions\" />
     </ItemGroup>
 
 </Project>
