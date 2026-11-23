@@ -17,7 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Features\Notes\" />
       <Folder Include="Features\Routines\" />
     </ItemGroup>
 
