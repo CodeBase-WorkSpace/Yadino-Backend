@@ -1,6 +1,0 @@
-@Yadino.Infrastructure_HostAddress = http://localhost:5102
-
-GET {{Yadino.Infrastructure_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
